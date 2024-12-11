@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #0d1117;
+    font-family: Arial, sans-serif;
+  }
+  
+  .button-container {
+    text-align: center;
+  }
+  
+  .cool-button {
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(45deg, #ff006e, #8338ec, #3a86ff);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cool-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  }
+  
